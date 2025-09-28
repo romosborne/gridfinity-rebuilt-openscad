@@ -121,7 +121,7 @@ echo(str(
     "\n",
     "Infill Dimensions*: ", bin_get_infill_size_mm(bin1), "\n",
     "Bounding Box: ", bin_get_bounding_box(bin1), "\n",
-    "  *Excludes Stacking Lip Support Height (if stacking lip enabled)\n",
+    "  *Excludes Stacking Lip Support Height (if stacking lip enabled)\n"
 ));
 echo("Height breakdown:");
 pprint(bin_get_height_breakdown(bin1));
